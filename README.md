@@ -1,20 +1,122 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+📁 Portfolio – Paul C.
+BTS SIO – Spécialité SLAM | EFREI Paris
 
-# Run and deploy your AI Studio app
+Bienvenue sur mon portfolio en ligne !
+Ce projet a été créé afin de présenter mon parcours, mes stages, mes projets et mes compétences développées durant mes deux années de BTS SIO (Services Informatiques aux Organisations).
+--------------------------------------------------------------------------------------------------------------------
 
-This contains everything you need to run your app locally.
+🚀 Aperçu du projet
 
-View your app in AI Studio: https://ai.studio/apps/drive/15ckj7iQy909omshXWp6Y-4vvw_gd25Kk
+Ce portfolio a été conçu pour :
 
-## Run Locally
+Mettre en avant mon parcours académique et mes ambitions dans la Data
 
-**Prerequisites:**  Node.js
+Présenter mes projets scolaires, personnels et professionnels
+
+Décrire mes missions en entreprise (Mairie du Perreux-sur-Marne & Extia)
+
+Offrir une expérience interactive grâce à un assistant virtuel intégré
+
+Le site est entièrement développé avec React + TypeScript, stylisé avec Tailwind CSS, et déployé sur AlwaysData.
+
+--------------------------------------------------------------------------------------------------------------------
+
+🛠️ Technologies utilisées
+Frontend
+
+⚛️ React (TypeScript)
+
+🎨 Tailwind CSS
+
+📦 Vite
+
+Outils
+
+🔄 Gestionnaire de versions : Git / GitHub
+
+🌐 Hébergement : AlwaysData
+
+💬 Assistant virtuel (version simplifiée sans API)
+
+📌 Fonctionnalités principales
+🎯 Page d’accueil moderne & animée
+
+UI responsive, animations douces et une identité visuelle centrée autour du thème sombre slate + teal.
+
+🧭 Navigation dynamique
+
+Accueil
+
+Expérience & Études
+
+Projets
+
+Contact
+
+🤖 Assistant virtuel intégré
+
+Un chatbot permet de poser des questions sur :
+
+Mon parcours
+
+Mes stages
+
+Mes projets
+
+Mes ambitions professionnelles
+
+(Version sécurisée sans API externe pour la production)
+
+📱 100% responsive
+
+Fonctionne parfaitement sur :
+
+PC 💻
+
+Tablettes 📚
+
+Smartphones 📱
+
+--------------------------------------------------------------------------------------------------------------------
+
+📂 Structure du projet
+New-Portfolio/
+│── components/       # Composants React (Navbar, Hero, Projects, etc.)
+│── services/         # Chat + logic interne
+│── assets/           # Images et scripts générés
+│── App.tsx           # Point central de l'application
+│── index.html        # Page racine
+│── vite.config.ts    # Configuration Vite
+│── tsconfig.json     # Config TypeScript
+│── package.json      # Dépendances du projet
+
+--------------------------------------------------------------------------------------------------------------------
+
+⚙️ Installation & lancement
+1. Installer les dépendances
+npm install
+
+2. Lancer en développement
+npm run dev
+
+3. Build pour la production
+npm run build
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Les fichiers générés se trouvent dans le dossier dist/.
+
+--------------------------------------------------------------------------------------------------------------------
+
+👤 À propos
+
+Je m’appelle Paul, étudiant en BTS SIO option SLAM à l’EFREI Paris.
+Passionné par l’informatique, le développement, et souhaitant évoluer dans le domaine de la Data.
+
+Ce portfolio représente mes compétences actuelles, mon évolution et ma motivation à progresser dans le domaine.
+
+--------------------------------------------------------------------------------------------------------------------
+
+📧 Contact
+
+Vous pouvez me contacter via le formulaire intégré ou par mail :
+📩 pcohen.plessis@gmail.com
